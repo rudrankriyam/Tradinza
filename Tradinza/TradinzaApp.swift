@@ -2,7 +2,7 @@
 //  TradinzaApp.swift
 //  Tradinza
 //
-//  Created by Rudrank Riyam on 02/10/22.
+//  Created by Rudrank Riyam on 14/11/22.
 //
 
 import SwiftUI

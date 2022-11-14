@@ -1,8 +1,8 @@
 //
-//  TradinzaWidget.swift
-//  Tradinza Widgets
+//  Widgets.swift
+//  Widgets
 //
-//  Created by Rudrank Riyam on 02/10/22.
+//  Created by Rudrank Riyam on 14/11/22.
 //
 
 import WidgetKit
@@ -38,7 +38,7 @@ struct SimpleEntry: TimelineEntry {
     let date: Date
 }
 
-struct TradinzaEntryView : View {
+struct WidgetsEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
@@ -46,21 +46,21 @@ struct TradinzaEntryView : View {
     }
 }
 
-struct TradinzaWidget: Widget {
-    let kind: String = "Live_Activity"
+struct Widgets: Widget {
+    let kind: String = "Widgets"
 
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
-          TradinzaEntryView(entry: entry)
+            WidgetsEntryView(entry: entry)
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
     }
 }
 
-struct TradinzaWidget_Previews: PreviewProvider {
+struct Widgets_Previews: PreviewProvider {
     static var previews: some View {
-      TradinzaEntryView(entry: SimpleEntry(date: Date()))
+        WidgetsEntryView(entry: SimpleEntry(date: Date()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }

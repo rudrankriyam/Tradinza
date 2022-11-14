@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AFF924428E8C05E00E04C1E"
+               BlueprintIdentifier = "0A04DC802922B3E6009185DD"
                BuildableName = "Tradinza.app"
                BlueprintName = "Tradinza"
                ReferencedContainer = "container:Tradinza.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AFF924428E8C05E00E04C1E"
+            BlueprintIdentifier = "0A04DC802922B3E6009185DD"
             BuildableName = "Tradinza.app"
             BlueprintName = "Tradinza"
             ReferencedContainer = "container:Tradinza.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AFF924428E8C05E00E04C1E"
+            BlueprintIdentifier = "0A04DC802922B3E6009185DD"
             BuildableName = "Tradinza.app"
             BlueprintName = "Tradinza"
             ReferencedContainer = "container:Tradinza.xcodeproj">

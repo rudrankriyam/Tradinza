@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AFF925A28E8C49B00E04C1E"
-               BuildableName = "Live ActivityExtension.appex"
-               BlueprintName = "Live ActivityExtension"
+               BlueprintIdentifier = "0AF5CD512922B48A00BB58EB"
+               BuildableName = "WidgetsExtension.appex"
+               BlueprintName = "WidgetsExtension"
                ReferencedContainer = "container:Tradinza.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AFF924428E8C05E00E04C1E"
+               BlueprintIdentifier = "0A04DC802922B3E6009185DD"
                BuildableName = "Tradinza.app"
                BlueprintName = "Tradinza"
                ReferencedContainer = "container:Tradinza.xcodeproj">
@@ -57,26 +57,16 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.springboard">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AFF925A28E8C49B00E04C1E"
-            BuildableName = "Live ActivityExtension.appex"
-            BlueprintName = "Live ActivityExtension"
-            ReferencedContainer = "container:Tradinza.xcodeproj">
-         </BuildableReference>
-      </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AFF924428E8C05E00E04C1E"
+            BlueprintIdentifier = "0A04DC802922B3E6009185DD"
             BuildableName = "Tradinza.app"
             BlueprintName = "Tradinza"
             ReferencedContainer = "container:Tradinza.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCWidgetKind"
@@ -107,7 +97,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0AFF924428E8C05E00E04C1E"
+            BlueprintIdentifier = "0A04DC802922B3E6009185DD"
             BuildableName = "Tradinza.app"
             BlueprintName = "Tradinza"
             ReferencedContainer = "container:Tradinza.xcodeproj">
